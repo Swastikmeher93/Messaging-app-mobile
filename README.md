@@ -48,7 +48,7 @@ To get this project up and running on your local machine, follow these steps:
 
 ## 🔮 Upcoming Features
 
-We are actively working to improve the app. Here are the features planned for upcoming releases:
+I'm actively working to improve the app. Here are the features planned for upcoming releases:
 - **Notification System:** Real-time push notifications to keep you updated on new messages immediately.
 - **Cleaner UI:** A revamped, highly polished, and minimalist user interface with beautiful aesthetics, smooth micro-animations, and dynamic rendering.
 - **Enhanced Privacy:** Advanced security features securely integrated.
