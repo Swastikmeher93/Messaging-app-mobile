@@ -8,6 +8,12 @@ A modern, feature-rich mobile messaging application built beautifully and secure
 - **Language:** [Dart](https://dart.dev/)
 - **Supported Platforms:** Android & iOS
 
+## ✨ Implemented Features
+
+- **Fully Functional Offline Messaging:** Capable of managing and displaying text messages entirely offline without relying on external web servers.
+- **Native Platform Channels:** Custom MethodChannels built to natively interface with Android/iOS OS to handle the core logic of sending and receiving standard SMS.
+- **Biometric Security:** Fast and safe biometric authentication built-in natively, protecting your personal messages.
+
 ## 🚀 Project Setup
 
 To get this project up and running on your local machine, follow these steps:
@@ -22,12 +28,18 @@ To get this project up and running on your local machine, follow these steps:
    cd Messaging-app-mobile
    ```
 
-3. **Install dependencies:**
+3. **Verify Flutter installation:**
+   ```bash
+   flutter doctor
+   ```
+   *Ensure there are no issues with your Flutter SDK or connected devices before proceeding.*
+
+4. **Install dependencies:**
    ```bash
    flutter pub get
    ```
 
-4. **Run the app:**
+5. **Run the app:**
    - Start an emulator or connect a physical device.
    - Run:
      ```bash
