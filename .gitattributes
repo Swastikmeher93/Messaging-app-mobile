@@ -1,7 +1,5 @@
 # GitHub Linguist overrides to show accurate language statistics for Flutter
 # Mark platform boilerplate code as generated so it doesn't skew the language stats
-ios/** linguist-generated=true
-android/** linguist-generated=true
 macos/** linguist-generated=true
 windows/** linguist-generated=true
 linux/** linguist-generated=true
