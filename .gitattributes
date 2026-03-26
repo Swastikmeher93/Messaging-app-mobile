@@ -6,6 +6,10 @@ linux/** linguist-generated=true
 web/** linguist-generated=true
 build/** linguist-generated=true
 
+# Ignore any HTML files that end up committed
+*.html linguist-generated=true
+*.htm linguist-generated=true
+
 # Force tracking of Kotlin and Swift files in Android and iOS directories
 android/**/*.kt linguist-detectable=true linguist-generated=false linguist-vendored=false
 android/**/*.java linguist-detectable=true linguist-generated=false linguist-vendored=false
