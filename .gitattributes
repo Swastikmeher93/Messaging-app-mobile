@@ -5,3 +5,10 @@ windows/** linguist-generated=true
 linux/** linguist-generated=true
 web/** linguist-generated=true
 build/** linguist-generated=true
+
+# Force tracking of Kotlin and Swift files in Android and iOS directories
+android/**/*.kt linguist-detectable=true linguist-generated=false linguist-vendored=false
+android/**/*.java linguist-detectable=true linguist-generated=false linguist-vendored=false
+ios/**/*.swift linguist-detectable=true linguist-generated=false linguist-vendored=false
+ios/**/*.m linguist-detectable=true linguist-generated=false linguist-vendored=false
+ios/**/*.h linguist-detectable=true linguist-generated=false linguist-vendored=false
